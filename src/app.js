@@ -39,12 +39,12 @@ app.get("*", (req, res) => {
 });
 
 // post req
-app.post("/weather", async (req, res) => {
+app.post("/weather", (req, res) => {
   const city = req.body.cityName;
   const api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}`;
 
   try {
-    await fetch(api)
+    fetch(api)
       .then((res) => res.json())
       .then((data) => {
         if (data.message == "city not found") {
