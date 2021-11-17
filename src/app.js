@@ -68,7 +68,7 @@ app.post("/weather", async (req, res) => {
       });
   } catch (err) {
     res.render("weather", {
-      city: "something went wrong",
+      city: err,
       des: null,
       temp: null,
     });
