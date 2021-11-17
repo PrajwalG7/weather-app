@@ -70,7 +70,7 @@ app.post("/weather", async (req, res) => {
     res.render("weather", {
       city: err,
       des: null,
-      temp: temp, //null
+      temp: null,
     });
   }
 });
