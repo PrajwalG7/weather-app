@@ -27,7 +27,7 @@ app.get("/about", (req, res) => {
 app.get("/weather", (req, res) => {
   res.render("weather", {
     city: null,
-    des: null,
+    des: des, //chnaged
     temp: null,
   });
 });
@@ -68,7 +68,7 @@ app.post("/weather", async (req, res) => {
       });
   } catch (err) {
     res.render("weather", {
-      city: err,
+      city: err, //something went wrong
       des: null,
       temp: null,
     });
