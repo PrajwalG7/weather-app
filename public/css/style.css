@@ -1,0 +1,93 @@
+/* index.html */
+
+#name {
+  color: rgb(0, 123, 255);
+}
+
+.main_menu {
+  background-color: rgb(248, 249, 250);
+}
+.main_header_left {
+  position: relative;
+  margin-top: 50px;
+}
+.navbar {
+  font-weight: bolder;
+}
+#welcome_note {
+  font-size: large;
+  font-family: cursive;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(248, 249, 250);
+  text-align: center;
+  color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+
+/* about.html */
+.abouts_body {
+  background-color: black;
+}
+
+/* ErrorPage */
+.errorMsg img {
+  width: 60rem;
+  height: 20rem;
+}
+
+.errorMsgText {
+  position: relative;
+  text-align: center;
+}
+
+/* Weather */
+
+.main_content {
+  position: relative;
+  top: 10px;
+  width: max-content;
+  margin: auto;
+}
+.temp_form #cityName {
+  background-color: rgb(20, 20, 20);
+  padding: 5px;
+  color: aliceblue;
+  width: 40vw;
+  border-radius: 8px;
+}
+.temp_form #submitBtn {
+  padding: 5px;
+  width: 80px;
+  border-radius: 8px;
+  font-weight: 300;
+  background-color: rgb(79, 79, 241);
+  color: white;
+}
+
+.tempInfo {
+  position: relative;
+  top: 60px;
+  width: fit-content;
+  margin: auto;
+  color: white;
+  padding: 30px;
+  border-radius: 6px;
+  border-style: ridge;
+  border-color: blue;
+  box-shadow: 2px 2px black;
+  background-color: black;
+}
+
+#output_tag {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 500;
+}
